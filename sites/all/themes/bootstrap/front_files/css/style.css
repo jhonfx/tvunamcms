@@ -1,0 +1,347 @@
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+div {
+	/*border: 1px solid red;*/
+}
+span {
+	color: #06195C;
+}
+.col-md-6 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.col-lg-6 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.col-xs-2 {
+  padding-right: 0 !important;
+  padding-left: 0 !important; 
+}
+
+.col-xs-6 {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.col-xs-12 {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.col-xs-8 {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	width: 61.666667% !important;
+}
+.col-xs-4 {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	width: 38.333333% !important;
+}
+.navbar {
+	margin-bottom: 0 !important;
+	min-height: 80px !important;
+	background-color: none !important;
+}
+.dropdown-menu {
+	background-color: #E8B365 !important;
+	font-size: 11px;
+	font-weight: 800;
+	opacity: 0.9;
+	min-width: 150px;
+	left: 15px;
+}
+
+.img_header {
+	max-width: 80%;
+	margin-left: 60px;
+}
+
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .img_header {
+    max-width: 35% !important;
+    margin-left: 20px;
+  }     
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+	.img_header {
+		max-width: 35% !important;
+		margin-left: 20px;
+	}    	
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+	.img_header {
+		max-width: 100% !important;
+		margin-left: 20px;
+	}    	
+}
+
+@media (min-width: 480px) and (max-width: 766px) {
+	.img_header {
+		max-width: 100% !important;
+		margin-left: 20px;
+	}    	
+}
+
+.img_header_right {
+  margin-top: 16px;
+  width: 140px;
+  float: right;
+  margin-right: -20px;
+}
+.navbar-nav {
+  margin-top: 30px !important;
+  background-color: none !important;
+  font-size: 15px;
+  font-weight: 400;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #06195C !important;
+}
+.nav .open>a {
+  background-color: none !important;
+}
+.navbar-nav  .open>a:hover {
+  background-color: none !important;
+}
+.navbar-form {
+  margin-top: 27px !important;
+}
+
+
+/*@media (min-width: 768px) and (max-width: 1900px) {
+  .img_header {
+    max-width: 35% !important;
+  }     
+}*/
+.text_footer {
+  float: left;
+  font-size: 15px;
+  color: #06195C;
+  font-weight: 800;
+  margin-top: 15px;
+  width: 100%
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.text_footer {
+		float: left;
+		font-size: 15px !important;
+		color: #06195C;
+		font-weight: 800;
+		margin-top: 35px;
+		margin-left: 20px;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1680px) {
+	.text_footer {
+		float: left;
+		font-size: 15px !important;
+		color: #06195C;
+		font-weight: 800;
+		margin-top: 35px;
+		width: 100%;
+	}
+}
+.dropdown-toggle {
+	background-color: none !important;
+}
+.dropdown-menu > li > a {
+  padding: 3px 10px;
+  font-weight: 700;
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+.pre_footer {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.newsletter_input {
+	margin-top: 4px;
+	width: 220px;
+	margin-left: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.newsletter_input {
+		margin-top: 4px;
+		width: 100%;
+		margin-left: 10px;
+		float: center;
+	}
+
+  .title-notice-1 {
+    color: white;
+    position: absolute;
+    display: block;
+    width: 290px;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 95px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .title-notice-2 {
+    color: white;
+    position: absolute;
+    display: block;
+    width: 290px;
+    text-align: left;
+    margin-left: 65px;
+    margin-top: 280px;
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px) { 
+  .title-notice-1 {
+    color: white;
+    position: absolute;
+    display: block;
+    width: 290px;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 225px;
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .title-notice-2 {
+    color: white;
+    position: absolute;
+    display: block;
+    width: 290px;
+    text-align: left;
+    margin-left: 65px;
+    margin-top: 280px;
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {  
+  .title-notice-1 {
+    color: white;
+    position: absolute;
+    display: block;
+    width: 410px;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 275px;
+    font-size: 50px;
+    line-height: 45px;
+  }
+
+  .title-notice-2 {
+    color: white;
+    position: absolute;
+    display: block;
+    width: 350px;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 275px;
+    font-size: 50px;
+    line-height: 45px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) { 
+  .title-notice-1 {
+    color: white;
+    position: absolute;
+    display: block;
+    width: 410px;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 175px;
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .title-notice-2 {
+    color: white;
+    position: absolute;
+    display: block;
+    width: 350px;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 145px;
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .navbar-form {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1366px) { 
+
+  .title-notice-1 {
+    color: white;
+    position: absolute;
+    display: block;
+    width: 410px;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 235px;
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .title-notice-2 {
+    color: white;
+    position: absolute;
+    display: block;
+    width: 350px;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 195px;
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1680px) {
+	.newsletter_input {
+		margin-top: 4px;
+		width: 100%;
+		margin-left: 10px;
+		float: center;
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+	.newsletter_input {
+		margin-top: 4px;
+		width: 90%;
+		margin-left: 10px;
+		float: center;
+	}
+}
+
+footer {
+	background-color: white;
+	color: #06195C;
+}
+.footer_div {
+	max-width: 100%;
+ /*height: 100% !important; */
+	height: 100px;
+	margin: auto;
+}
+

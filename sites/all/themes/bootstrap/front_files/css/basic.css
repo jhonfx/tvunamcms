@@ -1,0 +1,114 @@
+@font-face {
+    font-family: NexaB;
+    src: url(fonts/NexaBold.otf);
+}
+
+@font-face {
+    font-family: NexaL;
+    src: url(fonts/NexaLight.otf);
+}
+
+body {
+	font-family: 'NexaL', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+div {
+	/*border: 1px solid green;*/
+}
+
+.icons-container {
+	 margin: 5px;
+}
+
+.icons-container > i {
+	margin: 5px;
+}
+
+.contact-container {
+	margin: 5px;
+}
+
+.contact-container > i {
+	margin: 5px;
+}
+
+.we-container {
+	margin: 5px;
+}
+
+.we-container > i {
+	margin: 5px;
+}
+
+.notice-2 {
+	max-width: 840px;
+  max-height: 450px;
+  /*border: 1px solid red;*/
+  display: flex;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.notice-2 {
+		max-width: 840px;
+	  max-height: 270px;
+	  /*border: 1px solid red;*/
+	  display: flex;
+	}
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+	.notice-2 {
+		max-width: 840px;
+	  max-height: 340px;
+	  /*border: 1px solid red;*/
+	  display: flex;
+	}
+}
+
+@media (min-width: 1366px) and (max-width: 1659px){
+	.notice-2 {
+		max-width: 840px;
+	  max-height: 365px;
+	  /*border: 1px solid red;*/
+	  display: flex;
+	}
+}
+
+.img-notice-2 {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*.title-notice-1 {
+	color: white;
+  position: absolute;
+  display: block;
+  width: 550px;
+  text-align: left;
+  margin-left: 65px;
+  margin-top: 85px;
+  font-size: 50px;
+  line-height: 55px;
+}
+*/
+/*.title-notice-2 {
+	color: white;
+  position: absolute;
+  display: block;
+  width: 500px;
+  text-align: left;
+  margin-left: 65px;
+  margin-top: 280px;
+  font-size: 50px;
+  line-height: 55px;
+}*/
+
+.img2-left {
+	width: 100%
+}
+
+.img3-left {
+	width: 100%;
+}
