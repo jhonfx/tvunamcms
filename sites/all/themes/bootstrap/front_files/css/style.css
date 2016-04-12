@@ -289,7 +289,7 @@ display: block;
   }
 }
 
-@media only screen and (min-width: 1281px) and (max-width: 1366px) { 
+@media only screen and (min-width: 1280px) and (max-width: 1366px) { 
 
   .title-notice-1 {
     color: white;
@@ -312,6 +312,32 @@ display: block;
     margin-left: 45px;
     margin-top: 195px;
     font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1680px) { 
+  .title-notice-1 {
+    color: white;
+    position: absolute;
+    display: block;
+    width: 480px;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 265px;
+    font-size: 55px;
+    line-height: 55px;
+  }
+
+  .title-notice-2 {
+    color: white;
+    position: absolute;
+    display: block;
+    width: 350px;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 285px;
+    font-size: 50px;
     line-height: 45px;
   }
 }
